@@ -50,7 +50,7 @@ body {
   font-weight: bold;
 }
 .item:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
   transition: transform 0.3s ease;
 }
 .maincon {
@@ -125,7 +125,10 @@ footer{
     gap: 2.5rem;
     padding: 0.5rem;
   }
-
+.item:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
   .navbar .item {
     flex: 0 1 auto;
     min-width: 3rem;
