@@ -1,0 +1,113 @@
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+   body {
+      margin: 0;
+      background-color: #1e1e1e;
+      font-family: 'Segoe UI', sans-serif;;
+    }
+    .screen {
+      display: flex;
+      height: 100vh;
+    }
+    /* activity-bar */
+.activity-bar {
+      width: 3rem;
+      background-color: #252526;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 0;
+      height: 100vh;
+      justify-content: space-between;
+    }
+    .icon-wrapper {
+      position: relative;
+      margin: 1rem 0;
+      cursor: pointer;
+      color: #c5c5c5;
+      font-size: 1.2rem;
+    }
+    .icon-wrapper:hover {
+     color: white;
+   }
+    .icon-wrapper.active {
+        color: #007acc;
+        border-left: 2px solid #007acc;
+        padding-left: 0.3rem;
+    }
+    .badge {
+      position: absolute;
+      bottom: -0.4rem;
+      right: -0.4rem;
+      background: #007acc;
+      color: white;
+      font-size: 10px;
+      padding: 0 4px;
+      border-radius: 10px;
+    }
+    .bottom-icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+/* EXPLORER-BAR */
+.explorer {
+      width: 15rem;
+      background-color: #1e1e1e;
+      padding: 1rem 0.5rem;
+      border-right: 1px solid #333;
+      height: 100vh;
+    display: flex;
+        flex-direction: column;
+        
+    }
+     .explorer h3 {
+      color: #ccc;
+      font-size: 0.8rem;
+      margin-bottom: 0.7rem;
+      font-weight: 100;
+    }
+    .Top-folder {
+      margin-bottom: 110%;
+    }
+    .folder-name {
+      color: #ccc;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .file-list {
+      margin-left: 1.3rem;
+      margin-top: 0.6rem;
+    }
+    .folder-name i{
+        font-size: 0.7rem;
+        color: #bbb;
+        margin-right:0.1rem ;
+
+    }
+     .file {
+      padding: 0.1rem 0;
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #949292;
+    }
+    .active{
+        background-color: #2a2d2e;
+    }
+    .file:hover {
+      background-color: #2a2d2e;
+    }
+
+    pre{
+        font-size: 1rem;
+        color: rgb(182, 182, 99);
+        padding-left: 1rem;
+    }
+    
+    
+    
